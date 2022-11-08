@@ -20,13 +20,19 @@ a {
 }
 
 header {
-    width:100%;
+    width:1200px;
     height:100px;
+    position: relative;
     background-color: #dddddd;
 }
 
 .wrap {
     width:1200px;
+    height: 100px;
+    background-color: #ffffff;
+    position:absolute;
+    z-index: 1;
+    border:3px solid pink;
 }
 
 .logo{
@@ -71,9 +77,10 @@ header {
 
 .submenu {
     width:180px;
-    position:absolute;
+    /* position:absolute; */
     display:none;
     z-index:1;
+    border:3px solid red;
 }
 
 .submenu>li>a{
